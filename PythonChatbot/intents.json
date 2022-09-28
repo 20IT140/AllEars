@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello" , "hi" , "greetings" , "good morning" , "morning" , "sup" , "what's up" , "hey"],
+      "responses": ["Hi!" , "Hey!" , "*nods*" , "Hi there" , "Hello" , "I am glad, you're here"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["see ya" , "see you later" , "goodbye" , "I am leaving" , "have a good day", "bye" ],
+      "responses": ["Sad to see you go :(" , "Talk to you later" , "Goodbye" , "Bye!" , "*waves bye*"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["what is your name" , "what should I call you" , "whats your name?" , "who are you?" , "can you tell me your name?"],
+      "responses": ["You can call me AllEars", "My name is AllEars" , "I'm AllEars"]
+    },
+
+    {
+      "tag": "need",
+      "patterns" : ["I need peace" , "I need sleep" , "I  need food" , "I need friends"],
+      "responses": ["Why do you need it?", "Would it really help you to get it?", "Are you sure you need it"]
+    },
+
+    {
+      "tag": "whyDont",
+      "patterns": ["Why don't you understand" , "Why don't you get it"],
+      "responses": ["Do you really think I don't understand?", "Perhaps eventually I will get it.", "Do you really want me to understand?"]
+    },
+
+    {
+      "tag": "cant1",
+      "patterns": ["Why can't I concentrate??"],
+      "responses": ["Do you think you should be able to concentrate?",
+    "If you could concentrate, what would you do?",
+    "I don't know -- why can't you concentrate?",
+    "Have you really tried?"]
+    },
+
+    {
+      "tag": "cant",
+      "patterns": ["I can't concentrate"],
+      "responses": ["How do you know you can't concentrate?",
+    "Perhaps you could concentrate if you tried.",
+    "What would it take for you to concentrate?"]
+    },
+
+    {
+      "tag": "am1",
+      "patterns": ["I am sad"],
+      "responses": ["Did you come to me because you are sad?",
+    "How long have you been sad?",
+    "How do you feel about being sad?"
+      ]
+    },
+
+    {
+      "tag": "am2",
+      "patterns": ["I am lonely" , "I am alone"],
+      "responses": ["Did you come to me because you are lonely?",
+    "How long have you been lonely?",
+    "How do you feel about being lonely?"]
+    },
+
+    {
+      "tag": "yes",
+      "patterns": ["yes" , "yup"],
+      "responses": ["You seem quite sure.",
+    "OK, but can you elaborate a bit?"]
+    },
+
+    {
+      "tag": "have",
+      "patterns": ["I have anxiety" , "I feel anxious" , "I get very anxious" , "I get nervousness"],
+      "responses": ["Why do you tell me that you have anxiety?",
+    "Now that you have anxiety, what will you do next?" , "What makes you think that?"]
+    },
+
+    {
+      "tag": "have2",
+      "patterns": ["I have failed"],
+      "responses": ["Why do you tell me that you've failed?",
+    "Have you really failed?",
+    "Now that you have failed, what will you do next?" , "What makes you think that?"]
+    }
+  ]
+}
